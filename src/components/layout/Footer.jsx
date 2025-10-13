@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Github, Twitter, Linkedin } from 'lucide-react'
+import { SecurityBadges } from '../common/SecurityBadges'
 
 export const Footer = () => {
   return (
@@ -44,6 +45,9 @@ export const Footer = () => {
             </ul>
           </div>
         </div>
+        
+        {/* Security Badges */}
+        <SecurityBadges />
         
         {/* Bottom */}
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">

@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
-import { ArrowRight, CheckCircle } from 'lucide-react'
+import { ArrowRight, CheckCircle, Github, Star } from 'lucide-react'
 import { Button } from '../common/Button'
+import { Badge } from '../common/Badge'
 
 export const Hero = () => {
   return (
@@ -39,7 +40,7 @@ export const Hero = () => {
             </div>
             
             {/* Trust Indicators */}
-            <div className="flex flex-wrap gap-4 text-sm text-gray-600">
+            <div className="flex flex-wrap gap-4 text-sm text-gray-600 mb-6">
               <div className="flex items-center">
                 <CheckCircle size={16} className="text-green-500 mr-2" />
                 No credit card required
@@ -52,6 +53,24 @@ export const Hero = () => {
                 <CheckCircle size={16} className="text-green-500 mr-2" />
                 EU ESPR compliant
               </div>
+            </div>
+
+            {/* Open Source Badges */}
+            <div className="flex items-center gap-4 flex-wrap">
+              <Badge variant="success">100% Open Source</Badge>
+              <a 
+                href="https://github.com/opendpp" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm text-gray-700 hover:text-blue-600 transition-colors"
+              >
+                <Github size={18} />
+                <span className="font-medium">Star on GitHub</span>
+                <div className="flex items-center gap-1 bg-gray-100 px-2 py-1 rounded">
+                  <Star size={12} className="text-yellow-500" />
+                  <span className="text-xs font-semibold">50+</span>
+                </div>
+              </a>
             </div>
           </motion.div>
           

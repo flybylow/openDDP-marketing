@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { Calendar, AlertTriangle, CheckCircle, ArrowRight } from 'lucide-react'
 import { Card } from '../components/common/Card'
 import { Button } from '../components/common/Button'
+import { Alert } from '../components/common/Alert'
 
 export const Industries = () => {
   const industries = [
@@ -174,6 +175,12 @@ export const Industries = () => {
                         ))}
                       </div>
                     </div>
+
+                    {/* Penalty Warning */}
+                    <Alert variant="warning" className="mb-4">
+                      <strong>Non-compliance penalty:</strong> Up to 4% of annual turnover
+                      <p className="text-xs mt-1">Example: €10M company could face €400K fine</p>
+                    </Alert>
 
                     {/* CTA */}
                     <Button 
