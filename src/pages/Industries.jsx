@@ -21,7 +21,9 @@ export const Industries = () => {
         'Recycling information',
         'Battery performance data'
       ],
-      products: ['EV batteries', 'Industrial batteries', 'Consumer electronics batteries']
+      products: ['EV batteries', 'Industrial batteries', 'Consumer electronics batteries'],
+      marketSize: '50,000+ EU manufacturers',
+      marketValue: '€2.5B opportunity'
     },
     {
       id: 'textiles',
@@ -38,7 +40,9 @@ export const Industries = () => {
         'Chemical composition',
         'Care instructions'
       ],
-      products: ['Clothing', 'Home textiles', 'Technical fabrics']
+      products: ['Clothing', 'Home textiles', 'Technical fabrics'],
+      marketSize: '35,000+ EU brands',
+      marketValue: '€1.8B market'
     },
     {
       id: 'electronics',
@@ -55,7 +59,9 @@ export const Industries = () => {
         'Energy efficiency',
         'Software updates policy'
       ],
-      products: ['Smartphones', 'Computers', 'Home appliances']
+      products: ['Smartphones', 'Computers', 'Home appliances'],
+      marketSize: '25,000+ EU manufacturers',
+      marketValue: '€3B+ opportunity'
     },
     {
       id: 'packaging',
@@ -72,7 +78,9 @@ export const Industries = () => {
         'Disposal instructions',
         'Environmental impact'
       ],
-      products: ['Consumer packaging', 'Industrial packaging', 'Food packaging']
+      products: ['Consumer packaging', 'Industrial packaging', 'Food packaging'],
+      marketSize: '40,000+ EU companies',
+      marketValue: '€1.5B market'
     }
   ]
 
@@ -175,6 +183,19 @@ export const Industries = () => {
                         ))}
                       </div>
                     </div>
+
+                    {/* Market Size */}
+                    {industry.marketSize && (
+                      <div className="mb-4 p-3 bg-green-50 border border-green-200 rounded-lg">
+                        <div className="text-sm text-gray-600 mb-1">Market Opportunity</div>
+                        <div className="text-sm font-semibold text-green-700">
+                          {industry.marketSize}
+                        </div>
+                        <div className="text-xs text-gray-500">
+                          {industry.marketValue}
+                        </div>
+                      </div>
+                    )}
 
                     {/* Penalty Warning */}
                     <Alert variant="warning" className="mb-4">

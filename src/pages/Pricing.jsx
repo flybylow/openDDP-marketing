@@ -166,6 +166,59 @@ export const Pricing = () => {
         </div>
       </section>
 
+      {/* Comparison to Alternatives */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Compare to Alternatives
+            </h2>
+            <p className="text-xl text-gray-600">
+              See how Open DDP stacks up against other options
+            </p>
+          </div>
+
+          <div className="overflow-x-auto">
+            <table className="w-full max-w-4xl mx-auto">
+              <thead>
+                <tr className="border-b-2 border-gray-300">
+                  <th className="text-left py-4 px-6 text-gray-900 font-semibold">Solution</th>
+                  <th className="text-center py-4 px-6 text-gray-900 font-semibold">Cost</th>
+                  <th className="text-center py-4 px-6 text-gray-900 font-semibold">Time to Deploy</th>
+                  <th className="text-center py-4 px-6 text-gray-900 font-semibold">Maintenance</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-200">
+                  <td className="py-4 px-6 font-medium text-gray-900">Building In-House</td>
+                  <td className="text-center py-4 px-6 text-red-600 font-semibold">€100,000+</td>
+                  <td className="text-center py-4 px-6 text-red-600">12+ months</td>
+                  <td className="text-center py-4 px-6 text-red-600">Full dev team</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-4 px-6 font-medium text-gray-900">Enterprise Solutions</td>
+                  <td className="text-center py-4 px-6 text-orange-600 font-semibold">€500K+ setup</td>
+                  <td className="text-center py-4 px-6 text-orange-600">6+ months</td>
+                  <td className="text-center py-4 px-6 text-orange-600">Vendor dependent</td>
+                </tr>
+                <tr className="bg-blue-50 border-b-2 border-blue-600">
+                  <td className="py-4 px-6 font-bold text-blue-900">Open DDP</td>
+                  <td className="text-center py-4 px-6 text-green-600 font-bold">Free to start</td>
+                  <td className="text-center py-4 px-6 text-green-600 font-bold">2-4 weeks</td>
+                  <td className="text-center py-4 px-6 text-green-600 font-bold">Managed or self-hosted</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="text-center mt-8">
+            <p className="text-sm text-gray-600">
+              * Based on average mid-size manufacturer (5,000-10,000 products)
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Feature Comparison Table */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
