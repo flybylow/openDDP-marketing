@@ -93,7 +93,7 @@ export const Pricing = () => {
               Simple, Transparent Pricing
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              No hidden fees. No enterprise sales calls. Start free and scale as you grow.
+              No hidden fees. No lengthy sales process. Start free and scale as you grow.
             </p>
           </div>
         </div>
@@ -196,7 +196,7 @@ export const Pricing = () => {
                   <td className="text-center py-4 px-6 text-red-600">Full dev team</td>
                 </tr>
                 <tr className="border-b border-gray-200">
-                  <td className="py-4 px-6 font-medium text-gray-900">Enterprise Solutions</td>
+                  <td className="py-4 px-6 font-medium text-gray-900">Traditional Solutions</td>
                   <td className="text-center py-4 px-6 text-orange-600 font-semibold">€500K+ setup</td>
                   <td className="text-center py-4 px-6 text-orange-600">6+ months</td>
                   <td className="text-center py-4 px-6 text-orange-600">Vendor dependent</td>

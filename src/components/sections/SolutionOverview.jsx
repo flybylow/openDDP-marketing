@@ -16,7 +16,7 @@ export const SolutionOverview = () => {
     {
       icon: DollarSign,
       title: '90% Cost Reduction',
-      description: 'vs Enterprise solutions. Free tier available. Pay as you grow.'
+      description: 'Compared to traditional solutions. Free tier available. Pay as you grow.'
     },
     {
       icon: Shield,
@@ -46,10 +46,10 @@ export const SolutionOverview = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Open DDP: Built for Reality, Not Enterprise Budgets
+              Open DDP: Built for Every Manufacturer
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The first open-source DPP solution that gives you enterprise capabilities at SME prices
+              The first open-source DPP solution that delivers powerful capabilities at accessible prices
             </p>
           </motion.div>
         </div>

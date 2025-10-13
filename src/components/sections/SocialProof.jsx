@@ -4,7 +4,7 @@ import { Star, Quote } from 'lucide-react'
 export const SocialProof = () => {
   const testimonials = [
     {
-      quote: "We went from panic to prepared in 3 weeks. Open DDP saved us from a €500k enterprise solution.",
+      quote: "We went from panic to prepared in 3 weeks. Open DPP saved us from a €500k traditional solution.",
       author: "Sarah Chen",
       role: "COO",
       company: "GreenTech Manufacturing",
@@ -33,7 +33,7 @@ export const SocialProof = () => {
     { value: '50+', label: 'Companies Using Open DDP' },
     { value: '100K+', label: 'Products Tracked' },
     { value: '2-4', label: 'Weeks to Compliance' },
-    { value: '90%', label: 'Cost Reduction vs Enterprise' }
+    { value: '90%', label: 'Average Cost Savings' }
   ]
 
   return (

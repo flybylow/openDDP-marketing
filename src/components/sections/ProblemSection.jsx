@@ -13,7 +13,7 @@ export const ProblemSection = () => {
     },
     {
       icon: DollarSign,
-      title: 'Enterprise Costs'
+      title: 'High Costs'
     },
     {
       icon: HelpCircle,

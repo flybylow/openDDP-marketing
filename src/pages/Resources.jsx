@@ -156,8 +156,8 @@ export const Resources = () => {
     {
       category: 'case-studies',
       icon: Lightbulb,
-      title: 'Nordic Battery Solutions: Enterprise Alternative',
-      description: 'Large battery manufacturer chooses Open DPP over €500K enterprise solution.',
+      title: 'Nordic Battery Solutions: Smart DPP Choice',
+      description: 'Large battery manufacturer chooses Open DPP over €500K traditional solution.',
       type: 'Case Study',
       size: '1.8 MB',
       pages: '10 pages',

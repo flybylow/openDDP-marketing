@@ -103,7 +103,7 @@ export const Hero = () => {
               transition={{ delay: 0.8 }}
               className="absolute -top-6 -right-6 bg-white rounded-lg shadow-lg p-4 border border-gray-200"
             >
-              <p className="text-sm text-gray-600">vs Enterprise</p>
+              <p className="text-sm text-gray-600">Cost Savings</p>
               <p className="text-3xl font-bold text-green-600">90% less</p>
             </motion.div>
           </motion.div>

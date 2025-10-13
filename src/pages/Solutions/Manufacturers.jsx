@@ -22,7 +22,7 @@ export const Manufacturers = () => {
     {
       icon: DollarSign,
       title: 'Budget Constraints',
-      description: 'Enterprise DPP solutions cost €500K+, out of reach for most manufacturers'
+      description: 'Traditional DPP solutions cost €500K+, out of reach for most manufacturers'
     }
   ]
 
@@ -96,11 +96,11 @@ export const Manufacturers = () => {
     company: 'GreenTech Manufacturing',
     industry: 'Electronics',
     size: '500+ employees',
-    challenge: 'Needed to make 15,000 electronic products compliant by Jan 2028. Enterprise solutions quoted €500K+.',
+    challenge: 'Needed to make 15,000 electronic products compliant by Jan 2028. Traditional solutions quoted €500K+.',
     solution: 'Implemented Open DDP in 3 weeks. Integrated with existing SAP system. Created automated workflow.',
     results: [
       'Compliant in 3 weeks vs 6+ months',
-      '€475K saved vs enterprise solution',
+      '€475K saved vs traditional solutions',
       '15,000+ products with DPPs',
       'Automated 95% of data collection'
     ]
@@ -123,7 +123,7 @@ export const Manufacturers = () => {
               </h1>
               <p className="text-xl text-gray-600 mb-8">
                 Handle complex supply chains, high volumes, and strict compliance requirements 
-                without enterprise costs or complexity.
+                with affordable, scalable solutions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" icon={ArrowRight} href="/get-started">
