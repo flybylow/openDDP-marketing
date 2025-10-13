@@ -172,27 +172,27 @@ export const Resources = () => {
   const featuredResources = [
     {
       icon: BookOpen,
-      title: 'DPP Starter Kit',
-      description: 'Everything you need to begin your DPP journey',
-      items: ['Implementation guide', 'Data templates', 'Checklist', 'Video tutorials'],
-      buttonText: 'Download Kit',
-      buttonLink: '#'
+      title: 'Implementation Guides',
+      description: 'Step-by-step guides for your industry',
+      items: ['Battery guide', 'Textiles checklist', 'Electronics guide', 'SME quick start'],
+      buttonText: 'View Guides',
+      buttonLink: '/resources/guides'
     },
     {
       icon: Code,
-      title: 'Developer Resources',
-      description: 'Technical documentation and code samples',
-      items: ['API docs', 'SDK downloads', 'Integration guides', 'Sample code'],
+      title: 'Documentation',
+      description: 'Technical documentation and API references',
+      items: ['API docs', 'Getting started', 'Integration guides', 'Best practices'],
       buttonText: 'View Docs',
-      buttonLink: '/docs'
+      buttonLink: '/resources/documentation'
     },
     {
-      icon: Users,
-      title: 'Community & Support',
-      description: 'Connect with other manufacturers and experts',
-      items: ['Community forum', 'Slack channel', 'Monthly webinars', 'Expert consultations'],
-      buttonText: 'Join Community',
-      buttonLink: '#'
+      icon: FileText,
+      title: 'Templates & Tools',
+      description: 'Ready-to-use templates for compliance',
+      items: ['Data collection', 'Supply chain mapping', 'Carbon calculator', 'Checklists'],
+      buttonText: 'Get Templates',
+      buttonLink: '/resources/templates'
     }
   ]
 
