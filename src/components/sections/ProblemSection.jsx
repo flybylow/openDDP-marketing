@@ -1,34 +1,23 @@
-import { Clock, FileQuestion, DollarSign, HelpCircle, Users } from 'lucide-react'
+import { Clock, FileQuestion, DollarSign, HelpCircle } from 'lucide-react'
 import { Card } from '../common/Card'
 
 export const ProblemSection = () => {
   const problems = [
     {
       icon: Clock,
-      title: 'Tight Deadlines',
-      type: 'manufacturer'
+      title: 'Tight Deadlines'
     },
     {
       icon: FileQuestion,
-      title: 'Complex Requirements',
-      type: 'manufacturer'
+      title: 'Complex Requirements'
     },
     {
       icon: DollarSign,
-      title: 'Enterprise Costs',
-      type: 'manufacturer'
+      title: 'Enterprise Costs'
     },
     {
       icon: HelpCircle,
-      title: 'No Clear Path',
-      type: 'manufacturer'
-    },
-    {
-      icon: Users,
-      title: 'For Consumers',
-      description: '❌ Can\'t verify product claims\n❌ No recycling information\n❌ Hidden supply chains',
-      highlight: true,
-      type: 'consumer'
+      title: 'No Clear Path'
     }
   ]
 
@@ -45,7 +34,7 @@ export const ProblemSection = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {problems.slice(0, 4).map((problem, index) => (
+          {problems.map((problem, index) => (
             <Card 
               key={index}
               icon={problem.icon}
@@ -53,33 +42,6 @@ export const ProblemSection = () => {
               hover
             />
           ))}
-        </div>
-
-        {/* Consumer Perspective */}
-        <div className="mt-8 max-w-3xl mx-auto">
-          <Card 
-            icon={Users}
-            title="For Consumers"
-            className="bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-200"
-          >
-            <div className="space-y-2 text-sm mb-4">
-              <p className="flex items-start gap-2">
-                <span className="text-red-500">❌</span>
-                <span>Can't verify product claims or sustainability</span>
-              </p>
-              <p className="flex items-start gap-2">
-                <span className="text-red-500">❌</span>
-                <span>No clear recycling or disposal guidance</span>
-              </p>
-              <p className="flex items-start gap-2">
-                <span className="text-red-500">❌</span>
-                <span>Hidden supply chains and manufacturing</span>
-              </p>
-            </div>
-            <p className="text-sm font-semibold text-blue-700 mt-4">
-              → We provide: Complete transparency at your fingertips via QR code
-            </p>
-          </Card>
         </div>
       </div>
     </section>
