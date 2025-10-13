@@ -8,7 +8,7 @@ export const Header = () => {
   
   const navigation = [
     { name: 'Why DDP', href: '/why-ddp' },
-    { name: 'Solutions', href: '/solutions/manufacturers' },
+    { name: 'Solutions', href: '/solutions' },
     { name: 'Features', href: '/features' },
     { name: 'Industries', href: '/industries' },
     { name: 'Pricing', href: '/pricing' },

@@ -7,6 +7,7 @@ import { Pricing } from './pages/Pricing'
 import { Industries } from './pages/Industries'
 import { Resources } from './pages/Resources'
 import { GetStarted } from './pages/GetStarted'
+import { Solutions } from './pages/Solutions'
 import { Manufacturers } from './pages/Solutions/Manufacturers'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/industries" element={<Industries />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/get-started" element={<GetStarted />} />
+          <Route path="/solutions" element={<Solutions />} />
           <Route path="/solutions/manufacturers" element={<Manufacturers />} />
         </Routes>
       </Layout>
