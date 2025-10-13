@@ -26,8 +26,7 @@ export const Hero = () => {
             </h1>
             
             <p className="text-xl text-gray-600 mb-8">
-              Open-source DPP solution that gets you ESPR-compliant in weeks, not months. 
-              Built for manufacturers and SMEs who need compliance without complexity.
+              Create, manage, and deploy Digital Product Passports at scale
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
