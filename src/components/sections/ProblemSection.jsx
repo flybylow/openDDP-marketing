@@ -6,25 +6,21 @@ export const ProblemSection = () => {
     {
       icon: Clock,
       title: 'Tight Deadlines',
-      description: 'Battery regulation kicks in Feb 2027. Textiles July 2027. No time to waste.',
       type: 'manufacturer'
     },
     {
       icon: FileQuestion,
       title: 'Complex Requirements',
-      description: 'Hundreds of data points, supply chain tracking, carbon calculations - overwhelming.',
       type: 'manufacturer'
     },
     {
       icon: DollarSign,
       title: 'Enterprise Costs',
-      description: 'Traditional DPP solutions cost €500K+. Out of reach for most manufacturers.',
       type: 'manufacturer'
     },
     {
       icon: HelpCircle,
       title: 'No Clear Path',
-      description: 'Confusing regulations, no clear implementation roadmap, expensive consultants.',
       type: 'manufacturer'
     },
     {
@@ -55,9 +51,7 @@ export const ProblemSection = () => {
               icon={problem.icon}
               title={problem.title}
               hover
-            >
-              <p className="text-sm">{problem.description}</p>
-            </Card>
+            />
           ))}
         </div>
 
