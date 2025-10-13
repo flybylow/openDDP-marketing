@@ -21,8 +21,8 @@ export const Hero = () => {
             </div>
             
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              EU-Ready Digital Product Passports
-              <span className="text-blue-600"> Without the Enterprise Price Tag</span>
+              Digital Product Passports.
+              <span className="text-blue-600"> Simple. Affordable. Compliant.</span>
             </h1>
             
             <p className="text-xl text-gray-600 mb-8">
