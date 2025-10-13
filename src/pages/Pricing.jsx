@@ -255,7 +255,7 @@ export const Pricing = () => {
                 </tr>
                 <tr>
                   <td className="px-6 py-4 text-sm text-gray-900">QR Scans/month</td>
-                  <td className="px-6 py-4 text-sm text-center">10,000</td>
+                  <td className="px-6 py-4 text-sm text-center">1,000</td>
                   <td className="px-6 py-4 text-sm text-center">100,000</td>
                   <td className="px-6 py-4 text-sm text-center">Unlimited</td>
                 </tr>
