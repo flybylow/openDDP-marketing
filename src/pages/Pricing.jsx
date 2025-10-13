@@ -8,7 +8,7 @@ export const Pricing = () => {
       price: 'Free',
       description: 'Perfect for small manufacturers testing DPP',
       features: [
-        { text: 'Up to 1,000 products', included: true },
+        { text: 'Up to 100 products', included: true },
         { text: 'QR code generation', included: true },
         { text: 'Basic product data', included: true },
         { text: 'Email support', included: true },
@@ -249,7 +249,7 @@ export const Pricing = () => {
               <tbody className="divide-y divide-gray-200">
                 <tr>
                   <td className="px-6 py-4 text-sm text-gray-900">Products</td>
-                  <td className="px-6 py-4 text-sm text-center">1,000</td>
+                  <td className="px-6 py-4 text-sm text-center">100</td>
                   <td className="px-6 py-4 text-sm text-center">10,000</td>
                   <td className="px-6 py-4 text-sm text-center">Unlimited</td>
                 </tr>
