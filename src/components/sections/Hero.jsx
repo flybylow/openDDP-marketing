@@ -33,7 +33,7 @@ export const Hero = () => {
               <Button size="lg" icon={ArrowRight} href="/get-started">
                 Start Free Assessment
               </Button>
-              <Button size="lg" variant="outline" href="https://demo.opendpp.org">
+              <Button size="lg" variant="outline" href="https://humanmachinebe.vercel.app">
                 View Live Demo
               </Button>
             </div>

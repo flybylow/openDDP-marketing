@@ -39,7 +39,7 @@ export const Header = () => {
           
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" href="https://demo.opendpp.org" size="sm">
+            <Button variant="outline" href="https://humanmachinebe.vercel.app" size="sm">
               View Demo
             </Button>
             <Button href="/get-started" size="sm">
@@ -70,7 +70,7 @@ export const Header = () => {
               </Link>
             ))}
             <div className="px-4 pt-4 space-y-2">
-              <Button variant="outline" href="https://demo.opendpp.org" className="w-full">
+              <Button variant="outline" href="https://humanmachinebe.vercel.app" className="w-full">
                 View Demo
               </Button>
               <Button href="/get-started" className="w-full">

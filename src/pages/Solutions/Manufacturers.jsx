@@ -129,8 +129,8 @@ export const Manufacturers = () => {
                 <Button size="lg" icon={ArrowRight} href="/get-started">
                   Start Free Assessment
                 </Button>
-                <Button size="lg" variant="outline" href="/demo">
-                  See Manufacturer Demo
+                <Button size="lg" variant="outline" href="https://humanmachinebe.vercel.app">
+                  See Live Demo
                 </Button>
               </div>
             </div>

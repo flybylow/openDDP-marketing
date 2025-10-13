@@ -282,10 +282,10 @@ export const Features = () => {
             <Button 
               variant="outline" 
               size="lg" 
-              href="/demo"
+              href="https://humanmachinebe.vercel.app"
               className="bg-transparent border-white text-white hover:bg-white hover:text-blue-600"
             >
-              Schedule Demo
+              View Demo
             </Button>
           </div>
         </div>
