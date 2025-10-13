@@ -104,11 +104,10 @@ export const Solutions = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Complete DPP Solutions for Every Need
+              Complete DPP Solutions
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              From software to consulting, we provide everything you need to achieve 
-              EU ESPR compliance and build sustainable product transparency
+              From software to consulting, we provide everything you need to achieve EU ESPR compliance
             </p>
             <Button size="lg" icon={ArrowRight} href="/get-started">
               Find Your Solution
