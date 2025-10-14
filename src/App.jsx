@@ -9,7 +9,7 @@ import { Resources } from './pages/Resources'
 import { GetStarted } from './pages/GetStarted'
 import { About } from './pages/About'
 import { Contact } from './pages/Contact'
-import { ForConsumers } from './pages/ForConsumers'
+import { Consumer } from './pages/Consumer'
 import { Solutions } from './pages/Solutions'
 import { Manufacturers } from './pages/Solutions/Manufacturers'
 import { SMEs } from './pages/Solutions/SMEs'
@@ -25,7 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/why-ddp" element={<WhyDDP />} />
-          <Route path="/for-consumers" element={<ForConsumers />} />
+          <Route path="/consumer" element={<Consumer />} />
           <Route path="/features" element={<Features />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/industries" element={<Industries />} />

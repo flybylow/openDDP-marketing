@@ -8,6 +8,7 @@ export const Header = () => {
   
   const navigation = [
     { name: 'Why DDP', href: '/why-ddp' },
+    { name: 'For Consumers', href: '/consumer' },
     { name: 'Solutions', href: '/solutions' },
     { name: 'Features', href: '/features' },
     { name: 'Industries', href: '/industries' },
@@ -42,6 +43,9 @@ export const Header = () => {
             <Button variant="outline" href="https://humanmachinebe.vercel.app" size="sm">
               View Demo
             </Button>
+            <Button variant="ghost" href="https://humanmachinebe.vercel.app/admin" size="sm">
+              Admin
+            </Button>
             <Button href="/get-started" size="sm">
               Get Started
             </Button>
@@ -72,6 +76,9 @@ export const Header = () => {
             <div className="px-4 pt-4 space-y-2">
               <Button variant="outline" href="https://humanmachinebe.vercel.app" className="w-full">
                 View Demo
+              </Button>
+              <Button variant="ghost" href="https://humanmachinebe.vercel.app/admin" className="w-full">
+                Admin
               </Button>
               <Button href="/get-started" className="w-full">
                 Get Started

@@ -2,7 +2,7 @@ import { QrCode, Map, Heart, Globe, Leaf, Shield, Recycle, Sparkles } from 'luci
 import { Button } from '../components/common/Button'
 import { Card } from '../components/common/Card'
 
-export const ForConsumers = () => {
+export const Consumer = () => {
   const infoCategories = [
     {
       icon: Globe,
